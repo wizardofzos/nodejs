@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<!-- Cleaned up version.
+  A much less verbose "static" page
+-->
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Lesson 01, Chapter 05</title>
+    <link rel="stylesheet" media="all" href="css/style.css" />
+    <!-- We removed the inline <style>...</style> block. -->
+  </head>
+  <body translate="no" >
+    <div class="container">
+      <h1 id="but" class="neon">BUT...<br>We need to change "BUT..." above with data from node.js server</h1>
+     <h1>...cleaned it up, see the source...</h1>
+    </div>
+    <!-- javascript externalized -->
+    <script language="JavaScript" src="js/scripts.js"></script>
+    <!-- Call the (self-repeating) function from scripts.js -->
+    <script>window.setTimeout(getBackend, 100);</script>
+  </body>
+</html>
